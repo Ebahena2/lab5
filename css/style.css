@@ -1,10 +1,25 @@
 td, th {
 	border: 1px solid;
   color: black;
-  }
+  font-family: Fantasy;
+  text-align: center;
  
-main{
-  color: black;
+  }
+
+
+.titlename{
+  background-color: black;
+  font-family: Times New Roman;
+  color:white;
+  text-align: center;
 }
 
-  
+.earth{
+  width:100px;
+  height:100px;
+}
+
+.mars{
+  width:100px;
+  height:100px;
+} 

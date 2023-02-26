@@ -6,23 +6,28 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <main>
-  <h1>Planetary Fact Sheet</h1>
+  <div id="title">
+    <h1 class="titlename">Planetary Fact Sheet</h1>
+  </div>
   <table id="planets">
-    <tr>
-      <th></th>
-      <th>EARTH</th>
-      <th>MARS</th>
-      <th>NEPTUNE</th>
-      <th>VENUS</th>
-    </tr>
-    <tr id = "images">
-      <td>Images of ??</td>
-      <td><img src="media/earthv2.jpg" alt="Earth Picture"></td>
-      <td><img src="media/mars.jpg" alt="Mars Picture"></td>
-      <td><img src="media/neptune.jpg" alt="Neptune Picture"></td>
-      <td><img src="media/venus.jpg" alt="Venus Picture"></td>
-    </tr>
+    <div>
+      <tr>
+        <th></th>
+        <th>EARTH</th>
+        <th>MARS</th>
+        <th>NEPTUNE</th>
+        <th>VENUS</th>
+      </tr>
+    </div>
+    <div>
+      <tr>
+        <td>Images of ??</td>
+        <td class="earth"><img src="media/earthv2.jpg" alt="Earth Picture"></td>
+        <td class="mars"><img src="media/mars.jpg" alt="Mars Picture"></td>
+        <td class="neptune"><img src="media/neptune.jpg" alt="Neptune Picture"></td>
+        <td class="venus"><img src="media/venus.jpg" alt="Venus Picture"></td>
+      </tr>
+    </div>
     <tr>
       <td>Fact #1</td>
       <td>Diameter: 12,756 km</td>
@@ -73,5 +78,4 @@
       <td>Density: 5243(kg/m^3)</td>
     </tr>
   </table>
- </main>
 </body>
