@@ -30,7 +30,7 @@ td, th {
   background-color: azure;
 }
 
-#toprowcss tr,th{
+.toprow{
   background-color: gainsboro;
   font-family: Fantasy;
 } 
