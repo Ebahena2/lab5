@@ -26,7 +26,7 @@ td, th {
   height:200px;
 }
 
-#tablecss tr,td{
+.tablecolor{
   background-color: azure;
 }
 
