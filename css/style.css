@@ -1,25 +1,41 @@
 td, th {
 	border: 1px solid;
   color: black;
-  font-family: Fantasy;
+  font-family: Times New Roman;
   text-align: center;
- 
+  padding: 25px
   }
-
-
+  
 .titlename{
   background-color: black;
   font-family: Times New Roman;
   color:white;
   text-align: center;
+  padding: 10px;
+  margin: 1px;
 }
 
-.earth{
-  width:100px;
-  height:100px;
+#planets{
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mars{
-  width:100px;
-  height:100px;
+
+#planets img{
+  width:250px;
+  height:200px;
+}
+
+#tablecss tr,td{
+  background-color: azure;
+}
+
+#toprowcss tr,th{
+  background-color: gainsboro;
+  font-family: Fantasy;
 } 
+
+.columnone{
+  background-color: gainsboro;
+  font-family: Fantasy;
+}
